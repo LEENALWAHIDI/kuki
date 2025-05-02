@@ -1,8 +1,3 @@
-basic.forever(function () {
-    led.toggle(0, 0)
-	
-    loops.everyInterval(500, function() {
-        
-    })
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    
 })
-music.play(music.tonePlayable(Note.C, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
